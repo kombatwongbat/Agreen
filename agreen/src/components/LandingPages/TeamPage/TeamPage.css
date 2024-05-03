@@ -1,0 +1,62 @@
+.TeamWrapper {
+  display: flex;
+  background-color: var(--white);
+  width: 100dvw;
+  height: 64vh;
+  justify-content: center;
+}
+.TeamContainer {
+  display: flex;
+  width: 1340px;
+  justify-content: center;
+  background-color: var(--white);
+}
+
+.TeamLeft {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  width: 50%;
+  background-color: var(--white);
+}
+
+.TeamTitle {
+  color: var(--font-grey);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  text-align: start;
+  line-height: 55px;
+}
+
+.TeamText {
+  margin: 0.8rem 0rem 0.8rem 0rem;
+  color: var(--black);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 40;
+  font-size: 15px;
+  text-align: start;
+  letter-spacing: 0.01em;
+  line-height: 18px;
+  max-width: 540px;
+  letter-spacing: 1.5px;
+}
+
+.buttonContainer {
+  margin-left: 1rem;
+}
+
+.TeamRight {
+  margin-top: 2rem;
+  width: 65%;
+  background-color: var(--white);
+  
+}
+
+.TeamRight > img {
+  max-width: 80%;
+  background-color: var(--white);
+}

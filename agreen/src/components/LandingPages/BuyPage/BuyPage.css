@@ -1,0 +1,32 @@
+.buyWrapper {
+    display: flex;
+    background-color: var(--white);
+    width: 100dvw;
+    height: 64vh;
+    justify-content: center;
+  }
+  
+.buyContainer {
+    display: flex;
+    width: 1340px;
+    justify-content: center;
+  }
+.buyCenter {
+    margin-top: 0.5rem;
+    width: 60%;
+    background-color: var(--sub-black);
+  }
+  .buyTitle {
+    color: var(--font-grey);
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+    line-height: 55px;
+  }
+  .buyCenter > img {
+    margin-top: 0.5rem;
+    max-width:100%;
+  }
+  

@@ -1,0 +1,64 @@
+.automationWrapper {
+    display: flex;
+    background-color: var(--white);
+    width: 100dvw;
+    height: 64vh;
+    justify-content: center;
+  }
+  
+  
+  .automationContainer {
+    display: flex;
+    width: 1340px;
+    justify-content: center;
+    background-color: var(--sub-black);
+  }
+  
+  .automationLeft {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    width: 50%;
+    background-color: var(--sub--black);
+  }
+  
+  .automationTitle {
+    color: var(--font-grey);
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: start;
+    line-height: 55px;
+  }
+  
+  .automationText {
+    margin: 0.8rem 0rem 0.8rem 0rem;
+    color: var(--black);
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 40;
+    font-size: 15px;
+    text-align: start;
+    letter-spacing: 0.01em;
+    line-height: 18px;
+    max-width: 540px;
+    letter-spacing: 1.5px;
+  }
+  
+  .buttonContainer {
+    margin-top: 20rem;
+    margin-left: 1rem;
+  }
+  
+  .automationRight {
+    margin-top: 1.25rem;
+    width: 65%;
+    
+  }
+  
+  .automationRight > img {
+    max-width:80%;
+  }
+  
