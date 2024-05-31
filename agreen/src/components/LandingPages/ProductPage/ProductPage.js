@@ -20,10 +20,10 @@ function ProductPage() {
           </div>
         </div>
         <div className='productRight'>
- 
+        <img src={require("./ProductPageImage.jpg")} alt=""></img>
+        </div>
         </div>
       </div>
-    </div>
   )
 }
 
